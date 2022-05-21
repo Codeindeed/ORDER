@@ -1,3 +1,4 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
 *,
 *::before,
 *::after {
@@ -16,6 +17,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: Red Hat Display;
 }
 body {
   display: block;
@@ -42,7 +44,7 @@ body {
   grid-gap: 1.6rem;
   background-color: var(--color-white);
 }
-@media (max-width: 87.5em) {
+@media only screen and (max-width: 87.5em) {
   .card {
     display: flex;
     margin: 0 1.2rem;
@@ -51,7 +53,7 @@ body {
     align-items: center;
   }
 }
-@media (max-width: 87.5em) {
+@media only screen and (max-width: 87.5em) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
@@ -144,7 +146,7 @@ body {
   padding: 1rem 2rem;
   font-weight: 500;
 }
-@media (max-width: 87.5em) {
+@media only screen and (max-width: 87.5em) {
   .btn {
     margin: 1 0rem;
   }
