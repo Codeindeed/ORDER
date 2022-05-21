@@ -87,6 +87,11 @@ body {
   border-radius: 0.7rem;
   font-family: Red Hat Display, sans-serif;
 }
+@media (max-width: 87.5em) {
+  .header__plan {
+    margin: 0 1rem;
+  }
+}
 .texts {
   font-size: 1.9rem;
   font-weight: 900;
@@ -118,6 +123,11 @@ body {
   color: var(--color-white);
   font-size: 1.9rem;
   box-shadow: 1px 20px 20px rgb(56 42 225 / 19%);
+}
+@media (max-width: 87.5em) {
+  .btn {
+    margin: 0 1rem;
+  }
 }
 .btn:hover {
   cursor: pointer;
